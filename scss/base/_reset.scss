@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+*, 
+*::before, 
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+	min-height: 100vh;
+	min-height: -webkit-fill-available;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex-grow: 1;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+}
+
+img, picture, video, canvas, svg, span {
+	display: block;
+	max-width: 100%;
+}
+
+textarea {
+	font-family: inherit;
+}

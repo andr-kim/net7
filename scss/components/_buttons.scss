@@ -1,0 +1,13 @@
+.btn {
+	background-color: black;
+	color: white;
+	padding: 1rem 2rem;
+	width: fit-content;
+	transition: color, background ease-in-out 300ms;
+	border-radius: .5rem;
+
+	&:hover {
+		background-color: invert($color: #000000);
+		color: invert($color: #fff);
+	}
+}

@@ -1,0 +1,18 @@
+.hero {
+	background-color: azure;
+	height: 100vh;
+	min-height: 60rem;
+
+	.hero-wrap {
+		@extend %flex-col;
+		padding-top: 4rem;
+	}
+
+	h1 {
+		max-width: 25ch;
+	}
+
+	p {
+		max-width: 75ch;
+	}
+}
