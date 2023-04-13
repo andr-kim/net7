@@ -31,7 +31,8 @@ $clr-baseUltraLight: rgb(230, 230, 230);
 
 
 // Breakpoints ***
-$breikpoint-desktop: 1280px;
-$breikpoint-laptop: 1024px;
-$breikpoint-tablet: 768px;
-$breikpoint-mobile: 320 px;
+$breakpoint-xxl: 1280px;
+$breakpoint-xl: 1024px;
+$breakpoint-l: 768px;
+$breakpoint-m: 575px;
+$breakpoint-s: 375px;

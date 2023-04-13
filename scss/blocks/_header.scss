@@ -1,0 +1,29 @@
+@include desktop {
+	header {
+		background-color: yellow;
+	}
+}
+
+@include laptop {
+	header {
+		
+	}
+}
+
+@include tablet {
+	header {
+		
+	}
+}
+
+@include mobile {
+	header {
+		
+	}
+}
+
+@include mobile-small {
+	header {
+		
+	}
+}
