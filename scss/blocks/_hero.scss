@@ -1,18 +1,19 @@
-.hero {
-	background-color: azure;
-	height: 100vh;
-	min-height: 60rem;
-
-	.hero-wrap {
-		@extend %flex-col;
-		padding-top: 4rem;
-	}
+.hero-wrap {
+	height: 100%;
+	display: flex;
+	gap: 2rem;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 15rem clamp(1.5rem, calc(1.5rem + ((1vw - 0.32rem) * 1.5625)), 4rem);
+}
 
 	h1 {
 		max-width: 25ch;
+		text-align: center;
 	}
 
 	p {
-		max-width: 75ch;
+		max-width: 55ch;
+		text-align: center;
 	}
-}

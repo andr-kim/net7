@@ -5,7 +5,7 @@ $content-width: 1440px;
 $font-default: Oxygen;
 $font-title: Caviar;
 $fontSize-default: 1.6rem;
-$fontSize-Huge: 4.8rem;
+$fontSize-Huge: clamp(2.8rem, calc(2.8rem + ((1vw - 0.32rem) * 1.4205)), 4.8rem);
 $fontSize-XXXL: 4.2rem;
 $fontSize-XXL: 3.6rem;
 $fontSize-XL: 3.2rem;
@@ -19,7 +19,7 @@ $fontSize-Tiny: 1.2rem;
 
 
 // Colors ***
-$clr-primary: green;
+$clr-primary: #64DA72;
 $clr-secondary: blue;
 $clr-dark: black;
 $clr-light: white;

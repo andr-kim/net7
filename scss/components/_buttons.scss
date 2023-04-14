@@ -1,13 +1,23 @@
 .btn {
-	background-color: black;
-	color: white;
-	padding: 1rem 2rem;
+	background-color: $clr-dark;
+	color: $clr-light;
+	padding: .6rem 1.6rem;
 	width: fit-content;
 	transition: color, background ease-in-out 300ms;
-	border-radius: .5rem;
+	border-radius: 10rem;
 
 	&:hover {
-		background-color: invert($color: #000000);
-		color: invert($color: #fff);
+		background-color: $clr-baseUltraDark;
+		color: $clr-baseUltraLight;
+	}
+}
+
+.btn--primary {
+	background-color: $clr-primary;
+	color: $clr-dark;
+
+	&:hover {
+		background-color: $clr-secondary;
+		color: $clr-light;
 	}
 }

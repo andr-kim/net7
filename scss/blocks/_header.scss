@@ -1,6 +1,7 @@
+// *** Media ***
 @include desktop {
 	header {
-		background-color: yellow;
+		background-color: $clr-baseUltraLight;
 	}
 }
 
@@ -26,4 +27,19 @@
 	header {
 		
 	}
+}
+
+
+header {
+	background-color: $clr-light;
+	position: absolute;
+	width: 100%;
+}
+
+.header-wrap {
+	display: grid;
+	grid-template-columns: max-content max-content;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2rem clamp(1.5rem, calc(1.5rem + ((1vw - 0.32rem) * 1.5625)), 4rem);
 }

@@ -48,12 +48,6 @@ textarea {
   font-family: inherit;
 }
 
-.hero .hero-wrap {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
 body {
   font-family: Oxygen;
   font-size: 1.6rem;
@@ -72,43 +66,86 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 4.8rem;
+  font-size: clamp(2.8rem, 2.8rem + (1vw - 0.32rem) * 1.4205, 4.8rem);
 }
 
 h2 {
   font-size: 3.6rem;
 }
 
+p {
+  line-height: 120%;
+}
+
 .btn {
   background-color: black;
   color: white;
-  padding: 1rem 2rem;
+  padding: 0.6rem 1.6rem;
   width: -moz-fit-content;
   width: fit-content;
   transition: color, background ease-in-out 300ms;
-  border-radius: 0.5rem;
+  border-radius: 10rem;
 }
 .btn:hover {
-  background-color: white;
+  background-color: rgb(35, 35, 35);
+  color: rgb(230, 230, 230);
+}
+
+.btn--primary {
+  background-color: #64DA72;
   color: black;
+}
+.btn--primary:hover {
+  background-color: blue;
+  color: white;
 }
 
 @media (max-width: 1280px) {
   header {
-    background-color: yellow;
+    background-color: rgb(230, 230, 230);
   }
 }
-.hero {
-  background-color: azure;
-  height: 100vh;
-  min-height: 60rem;
+header {
+  background-color: white;
+  position: absolute;
+  width: 100%;
 }
-.hero .hero-wrap {
-  padding-top: 4rem;
+
+.header-wrap {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem clamp(1.5rem, 1.5rem + (1vw - 0.32rem) * 1.5625, 4rem);
 }
-.hero h1 {
+
+.hero-wrap {
+  height: 100%;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15rem clamp(1.5rem, 1.5rem + (1vw - 0.32rem) * 1.5625, 4rem);
+}
+
+h1 {
   max-width: 25ch;
+  text-align: center;
 }
-.hero p {
-  max-width: 75ch;
+
+p {
+  max-width: 55ch;
+  text-align: center;
+}
+
+.main-slider__wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.main-slider__wrap div {
+  background-color: black;
+  width: 100%;
+  aspect-ratio: 1/1;
 }/*# sourceMappingURL=main.css.map */

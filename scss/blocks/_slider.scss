@@ -1,0 +1,11 @@
+.main-slider__wrap {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+
+	div {
+		background-color: $clr-dark;
+		width: 100%;
+		aspect-ratio: 1/1;
+	}
+}
