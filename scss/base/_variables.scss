@@ -2,10 +2,10 @@ $content-width: 1440px;
 
 
 // Fonts ***
-$font-default: Oxygen;
-$font-title: Caviar;
+$font-default: Tilda;
+$font-title: Tilda;
 $fontSize-default: 1.6rem;
-$fontSize-Huge: clamp(2.8rem, calc(2.8rem + ((1vw - 0.32rem) * 1.4205)), 4.8rem);
+$fontSize-Huge: clamp(3.6rem, calc(3.6rem + ((1vw - 0.32rem) * 1.4205)), 5.6rem);
 $fontSize-XXXL: 4.2rem;
 $fontSize-XXL: 3.6rem;
 $fontSize-XL: 3.2rem;
@@ -16,6 +16,14 @@ $fontSize-XS: 1.8rem;
 $fontSize-XXS: 1.6rem;
 $fontSize-XXXS: 1.4rem;
 $fontSize-Tiny: 1.2rem;
+
+
+// Breakpoints ***
+$breakpoint-xxl: 1280px;
+$breakpoint-xl: 1024px;
+$breakpoint-l: 768px;
+$breakpoint-m: 575px;
+$breakpoint-s: 375px;
 
 
 // Colors ***
@@ -30,9 +38,9 @@ $clr-baseLight: rgb(185, 185, 185);
 $clr-baseUltraLight: rgb(230, 230, 230);
 
 
-// Breakpoints ***
-$breakpoint-xxl: 1280px;
-$breakpoint-xl: 1024px;
-$breakpoint-l: 768px;
-$breakpoint-m: 575px;
-$breakpoint-s: 375px;
+// *** Border Radius ***
+$br-xl: 10rem;
+$br-l: 5rem;
+$br-m: 2rem;
+$br-s: 1rem;
+$br-xs: .5rem;

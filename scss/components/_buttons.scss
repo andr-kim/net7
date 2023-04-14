@@ -1,23 +1,19 @@
 .btn {
 	background-color: $clr-dark;
 	color: $clr-light;
-	padding: .6rem 1.6rem;
+	padding: .9rem 1.5rem 1rem;
+	font-size: larger;
+	font-weight: 400;
 	width: fit-content;
-	transition: color, background ease-in-out 300ms;
-	border-radius: 10rem;
+	transition: opacity ease-in-out 300ms;
+	border-radius: $br-xl;
 
 	&:hover {
-		background-color: $clr-baseUltraDark;
-		color: $clr-baseUltraLight;
+		opacity: 0.7;
 	}
 }
 
 .btn--primary {
 	background-color: $clr-primary;
 	color: $clr-dark;
-
-	&:hover {
-		background-color: $clr-secondary;
-		color: $clr-light;
-	}
 }

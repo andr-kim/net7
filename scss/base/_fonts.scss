@@ -1,11 +1,31 @@
 @font-face {
-  font-family: "Caviar";
-  src: url("/assets/fonts/CaviarDreams.woff2") format("woff2"), 
-	url("/assets/fonts/CaviarDreams.woff") format("woff");
+  font-family: "Tilda";
+  src: url("/assets/fonts/tilda-sans_black.woff2") format("woff2"), 
+	url("/assets/fonts/tilda-sans_black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: "Oxygen";
-  src: url("/assets/fonts/Oxygen.woff2") format("woff2"), 
-	url("/assets/fonts/Oxygen.woff") format("woff");
+  font-family: "Tilda";
+  src: url("/assets/fonts/tilda-sans_bold.woff2") format("woff2"), 
+	url("/assets/fonts/tilda-sans_bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: "Tilda";
+  src: url("/assets/fonts/tilda-sans_medium.woff2") format("woff2"), 
+	url("/assets/fonts/tilda-sans_medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: "Tilda";
+  src: url("/assets/fonts/tilda-sans_regular.woff2") format("woff2"), 
+	url("/assets/fonts/tilda-sans_regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
 }
