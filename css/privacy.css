@@ -89,13 +89,12 @@ p {
   line-height: 120%;
 }
 
-@media (max-width: 1440px) {
-  header {
-    background-color: rgb(230, 230, 230);
+@media (max-width: 600px) {
+  .logo-wrap span {
+    display: none;
   }
 }
 header {
-  background-color: white;
   position: absolute;
   width: 100%;
 }
@@ -106,4 +105,14 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 2rem clamp(1.5rem, 1.5rem + (1vw - 0.32rem) * 1.5625, 4rem);
+}
+
+.logo-wrap {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+.logo-wrap span {
+  font-size: 1.8rem;
 }/*# sourceMappingURL=privacy.css.map */

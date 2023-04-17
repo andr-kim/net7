@@ -1,37 +1,12 @@
 // *** Media ***
-@include desktop {
-	header {
-		background-color: $clr-baseUltraLight;
-	}
-}
-
-@include laptop {
-	header {
-		
-	}
-}
-
-@include tablet {
-	header {
-		
-	}
-}
-
-@include mobile {
-	header {
-		
-	}
-}
-
-@include mobile-small {
-	header {
-		
+@include mobile-portrait {
+	.logo-wrap span {
+		display: none;
 	}
 }
 
 
 header {
-	background-color: $clr-light;
 	position: absolute;
 	width: 100%;
 }
@@ -42,4 +17,15 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	padding: 2rem clamp(1.5rem, calc(1.5rem + ((1vw - 0.32rem) * 1.5625)), 4rem);
+}
+
+.logo-wrap {
+	display: grid;
+	grid-template-columns: max-content 1fr;
+	gap: 1rem;
+	align-items: center;
+
+	span {
+		font-size: 1.8rem;
+	}
 }
