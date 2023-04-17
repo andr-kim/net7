@@ -113,11 +113,6 @@ p {
   color: black;
 }
 
-@media (max-width: 600px) {
-  .logo-wrap span {
-    display: none;
-  }
-}
 header {
   position: absolute;
   width: 100%;
@@ -141,6 +136,11 @@ header {
   font-size: 1.8rem;
 }
 
+@media (max-width: 600px) {
+  .logo-wrap span {
+    display: none;
+  }
+}
 .hero-wrap {
   height: 100%;
   gap: 2rem;
@@ -168,4 +168,10 @@ header {
   background-color: black;
   width: 100%;
   aspect-ratio: 1/1;
+}
+
+@media (max-width: 767px) {
+  .main-slider__wrap {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=main.css.map */

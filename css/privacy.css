@@ -89,11 +89,6 @@ p {
   line-height: 120%;
 }
 
-@media (max-width: 600px) {
-  .logo-wrap span {
-    display: none;
-  }
-}
 header {
   position: absolute;
   width: 100%;
@@ -115,4 +110,10 @@ header {
 }
 .logo-wrap span {
   font-size: 1.8rem;
+}
+
+@media (max-width: 600px) {
+  .logo-wrap span {
+    display: none;
+  }
 }/*# sourceMappingURL=privacy.css.map */
