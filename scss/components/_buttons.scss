@@ -17,3 +17,13 @@
 		color: $clr-dark;
 	}
 }
+
+
+// *** Media ***
+@include mobile-portrait {
+	.btn {
+		width: 100%;
+		text-align: center;
+		padding: 1.4rem 1.5rem 1.5rem;
+	}
+}

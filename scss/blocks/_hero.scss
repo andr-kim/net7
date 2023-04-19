@@ -1,10 +1,8 @@
 .hero-wrap {
+	@extend %flex-center;
 	height: 100%;
-	@extend %flex-col;
 	gap: 2rem;
-	align-items: center;
-	justify-content: center;
-	padding: 15rem clamp(1.5rem, calc(1.5rem + ((1vw - 0.32rem) * 1.5625)), 4rem);
+	padding: clamp(11rem, calc(11rem + ((1vw - 0.32rem) * 2.8409)), 15rem) clamp(1.5rem, calc(1.5rem + ((1vw - 0.32rem) * 1.5625)), 4rem) clamp(5rem, calc(5rem + ((1vw - 0.32rem) * 7.1023)), 15rem);
 
 	h1 {
 		max-width: 25ch;
@@ -15,6 +13,6 @@
 		font-size: $fontSize-M;
 		max-width: 55ch;
 		text-align: center;
-		margin-bottom: 2rem;
+		margin-bottom: clamp(1rem, calc(1rem + ((1vw - 0.32rem) * 0.7102)), 2rem);
 	}
 }

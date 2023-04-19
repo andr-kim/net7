@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: clamp(3.6rem, 3.6rem + (1vw - 0.32rem) * 1.4205, 5.6rem);
+  font-size: clamp(2.8rem, 2.8rem + (1vw - 0.32rem) * 1.9886, 5.6rem);
 }
 
 p {
