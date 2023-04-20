@@ -1,11 +1,7 @@
-$content-width: 1440px;
-
-
 // Fonts ***
 $font-default: SF;
-$font-title: SF;
 $fontSize-default: 1.6rem;
-$fontSize-Huge: clamp(2.8rem, calc(2.8rem + ((1vw - 0.32rem) * 1.9886)), 5.6rem);
+$fontSize-Huge: 7.4rem;
 $fontSize-XXXL: 4.2rem;
 $fontSize-XXL: 3.6rem;
 $fontSize-XL: 3.2rem;
@@ -17,6 +13,17 @@ $fontSize-XXS: 1.6rem;
 $fontSize-XXXS: 1.4rem;
 $fontSize-Tiny: 1.2rem;
 
+// Colors ***
+$clr-primary: #64DA72;
+$clr-secondary: #E4E195;
+$clr-background: #1A1A1A;
+$clr-box: #262626;
+$clr-dashed: #324A35;
+$clr-dark: black;
+$clr-light: white;
+$clr-baseDark: #3B3B3B;
+$clr-baseNormal: #A8A8A8;
+$clr-baseLight: #BEBEBE;
 
 // Breakpoints ***
 $breakpoint-xxl: 1440px;
@@ -25,22 +32,12 @@ $breakpoint-l: 1024px;
 $breakpoint-m: 767px;
 $breakpoint-s: 600px;
 
-
-// Colors ***
-$clr-primary: #64DA72;
-$clr-secondary: blue;
-$clr-dark: black;
-$clr-light: white;
-$clr-baseUltraDark: rgb(35, 35, 35);
-$clr-baseDark: rgb(70, 70, 70);
-$clr-baseNormal: rgb(120, 120, 120);
-$clr-baseLight: rgb(185, 185, 185);
-$clr-baseUltraLight: rgb(230, 230, 230);
-
-
 // *** Border Radius ***
-$br-xl: 10rem;
 $br-l: 5rem;
+$br-s: 1.5rem;
+
+
+$br-xl: 10rem;
+
 $br-m: 2rem;
-$br-s: 1rem;
 $br-xs: .5rem;

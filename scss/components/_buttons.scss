@@ -1,18 +1,14 @@
 .btn {
-	background-color: $clr-dark;
-	color: $clr-light;
-	padding: .9rem 1.5rem 1rem;
-	font-size: larger;
-	font-weight: 400;
+	color: $clr-primary;
+	border: .2rem solid $clr-primary;
+	padding: 1rem 2.2rem 1.2rem;
+	font-size: 2.4rem;
+	font-weight: 300;
 	width: fit-content;
-	transition: opacity ease-in-out 300ms;
+	transition: color ease-in-out 300ms, background-color ease-in-out 300ms;
 	border-radius: $br-xl;
 
 	&:hover {
-		opacity: 0.7;
-	}
-
-	&--primary {
 		background-color: $clr-primary;
 		color: $clr-dark;
 	}
