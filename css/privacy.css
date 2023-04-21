@@ -311,4 +311,62 @@ h1 span {
 }
 .box--small:hover {
   background-color: #2f2f2f;
+}
+
+.img-1 {
+  position: absolute;
+  width: 15rem;
+  left: 10%;
+  bottom: -13rem;
+  transition: 0.5s ease;
+}
+
+.img-2 {
+  position: absolute;
+  width: 15rem;
+  left: 30%;
+  bottom: -18rem;
+  transition: 0.5s ease;
+}
+
+.img-3 {
+  position: absolute;
+  width: 15rem;
+  right: 10%;
+  bottom: -23rem;
+  transition: 0.5s ease;
+}
+
+.box--hover:hover .img-1 {
+  bottom: -12rem;
+}
+.box--hover:hover .img-2 {
+  bottom: -11rem;
+}
+.box--hover:hover .img-3 {
+  bottom: -10rem;
+}
+
+.contact-box span {
+  color: white;
+}
+
+.contact-box img {
+  position: absolute;
+  width: 15rem;
+  right: 10%;
+  bottom: -15rem;
+  transition: 0.5s ease;
+}
+
+.phone {
+  font-size: 3.2rem;
+  line-height: 140%;
+}
+.phone span {
+  color: #64DA72;
+}
+
+.box-animation:hover .contact-img {
+  transform: scale(1.1);
 }/*# sourceMappingURL=privacy.css.map */

@@ -205,3 +205,70 @@ h1 span {
 		background-color: $clr-boxHover;
 	}
 }
+
+.img-1 {
+	position: absolute;
+	width: 15rem;
+	left: 10%;
+	bottom: -13rem;
+	transition: .5s ease;
+}
+
+.img-2 {
+	position: absolute;
+	width: 15rem;
+	left: 30%;
+	bottom: -18rem;
+	transition: .5s ease;
+}
+
+.img-3 {
+	position: absolute;
+	width: 15rem;
+	right: 10%;
+	bottom: -23rem;
+	transition: .5s ease;
+}
+
+.box--hover {
+	&:hover .img-1 {
+		bottom: -12rem;
+	}
+
+	&:hover .img-2 {
+		bottom: -11rem;
+	}
+
+	&:hover .img-3 {
+		bottom: -10rem;
+	}
+}
+
+.contact-box {
+	span {
+		color: $clr-light;
+	}
+}
+
+.contact-box img {
+	position: absolute;
+	width: 15rem;
+	right: 10%;
+	bottom: -15rem;
+	transition: .5s ease;
+}
+
+.phone {
+	font-size: $fontSize-XL;
+	line-height: 140%;
+
+	span {
+		color: $clr-primary;
+	}
+}
+
+.box-animation {
+	&:hover .contact-img {
+		transform: scale(1.1);
+	}
+}
