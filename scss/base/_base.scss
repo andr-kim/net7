@@ -8,9 +8,14 @@ body {
 
 h1 {
 	font-size: $fontSize-Huge;
-	line-height: 80%;
+	line-height: 90%;
 	margin-left: -.6rem;
 	margin-bottom: 3rem;
+}
+
+h2 {
+	font-size: $fontSize-M;
+	font-weight: 700;
 }
 
 p {
@@ -18,7 +23,8 @@ p {
 }
 
 .box {
-	padding: 3rem;
+	padding: 4rem;
 	background-color: $clr-box;
 	border-radius: $br-l;
+	overflow: hidden;
 }

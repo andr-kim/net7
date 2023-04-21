@@ -1,12 +1,12 @@
 // Fonts ***
 $font-default: SF;
 $fontSize-default: 1.6rem;
-$fontSize-Huge: 7.4rem;
+$fontSize-Huge: 6.8rem;
 $fontSize-XXXL: 4.2rem;
 $fontSize-XXL: 3.6rem;
 $fontSize-XL: 3.2rem;
 $fontSize-L: 2.8rem;
-$fontSize-M: clamp(1.8rem, calc(1.8rem + ((1vw - 0.32rem) * 0.4261)), 2.4rem);
+$fontSize-M: 2.4rem;
 $fontSize-S: 2rem;
 $fontSize-XS: 1.8rem;
 $fontSize-XXS: 1.6rem;
@@ -18,7 +18,9 @@ $clr-primary: #64DA72;
 $clr-secondary: #E4E195;
 $clr-background: #1A1A1A;
 $clr-box: #262626;
-$clr-dashed: #324A35;
+$clr-boxHover: #2f2f2f;
+$clr-toggle: #4c4c4c;
+$clr-dashed: #3E6D44;
 $clr-dark: black;
 $clr-light: white;
 $clr-baseDark: #3B3B3B;
@@ -32,10 +34,9 @@ $breakpoint-l: 1024px;
 $breakpoint-m: 767px;
 $breakpoint-s: 600px;
 
-// *** Border Radius ***
+// Border Radius ***
 $br-l: 5rem;
 $br-s: 1.5rem;
-
 
 $br-xl: 10rem;
 
