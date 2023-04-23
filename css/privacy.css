@@ -183,6 +183,8 @@ input[type=checkbox] {
   height: 3rem;
   background-color: #4c4c4c;
   -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   border-radius: 20px;
   outline: none;
   cursor: pointer;
