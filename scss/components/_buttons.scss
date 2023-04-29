@@ -13,3 +13,11 @@
 		color: $clr-dark;
 	}
 }
+
+.btn-secondary {
+	background-color: $clr-light;
+	border: none;
+	color: $clr-dark;
+	font-size: $fontSize-M;
+	font-weight: 600;
+}
