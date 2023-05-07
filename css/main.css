@@ -101,7 +101,7 @@ header {
   border-radius: 1.5rem;
 }
 
-.benefits__item__top span:nth-child(2), .benefits__item:nth-child(7) .hosting-price, .benefits__item:nth-child(7) h3, .benefits-text, .box__bottom span, h1 span, h3, h2 {
+.benefits-text, .benefits__item__top span:nth-child(2), .benefits__item:nth-child(7) .hosting-price, .benefits__item:nth-child(7) h3, .box__bottom span, h1 span, h3, h2 {
   font-weight: 700;
 }
 
@@ -109,8 +109,16 @@ header {
   font-weight: 600;
 }
 
-.benefits__item:nth-child(7) .hosting-info, .inner-ipad span span, .inner-iphone span span, .short-descript span, .logo span, .btn {
+.inner-ipad span span, .inner-iphone span span, .short-descript span, .benefits__item:nth-child(7) .hosting-info, .logo span, .btn {
   font-weight: 300;
+}
+
+.benefits-text, .btn {
+  font-size: 2.4rem;
+}
+
+.inner-ipad span span, .inner-iphone span span, .short-descript span, .benefits__item__bottom p {
+  font-size: 1.8rem;
 }
 
 body {
@@ -151,7 +159,6 @@ p {
   color: #64DA72;
   border: 0.2rem solid #64DA72;
   padding: 1rem 2.2rem 1.2rem;
-  font-size: 2.4rem;
   width: -moz-fit-content;
   width: fit-content;
   transition: color ease-in-out 300ms, background-color ease-in-out 300ms;
@@ -412,61 +419,6 @@ h1 span {
   grid-template-columns: 1fr max-content;
 }
 
-.inner-display {
-  max-width: 61rem;
-  position: relative;
-}
-
-.short-descript {
-  position: absolute;
-  bottom: 3.5rem;
-  font-size: 2.8rem;
-}
-.short-descript span {
-  font-size: 1.8rem;
-}
-
-.inner-iphone {
-  max-width: 12rem;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-.inner-iphone span {
-  text-align: center;
-  font-size: 2.8rem;
-}
-.inner-iphone span span {
-  font-size: 1.8rem;
-}
-
-.benefits-text {
-  position: absolute;
-  left: 3rem;
-  bottom: 3rem;
-  font-size: 2.4rem;
-  max-width: 25ch;
-  line-height: 180%;
-}
-
-.inner-ipad {
-  max-width: 24rem;
-  position: absolute;
-  right: 3rem;
-  bottom: 3rem;
-}
-.inner-ipad span {
-  position: absolute;
-  left: -5rem;
-  top: 50%;
-  text-align: start;
-  font-size: 2.8rem;
-}
-.inner-ipad span span {
-  font-size: 1.8rem;
-}
-
 .benefits-wrap {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -537,13 +489,63 @@ h1 span {
   gap: 1rem;
 }
 .benefits__item__bottom p {
-  font-size: 1.8rem;
   color: #A8A8A8;
   line-height: 140%;
 }
 
 .highlight {
   color: #64DA72;
+}
+
+.benefits-text {
+  position: absolute;
+  left: 4rem;
+  bottom: 4rem;
+  max-width: 25ch;
+  line-height: 180%;
+  background-image: linear-gradient(90deg, #64DAB9, #E4E195, #EDB5B5);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+
+.inner-display {
+  max-width: 61rem;
+  position: relative;
+}
+
+.short-descript {
+  position: absolute;
+  bottom: 3.5rem;
+  font-size: 2.8rem;
+}
+.inner-iphone {
+  max-width: 12rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.inner-iphone span {
+  text-align: center;
+  font-size: 2.8rem;
+}
+.inner-ipad {
+  max-width: 24rem;
+  position: absolute;
+  right: 4rem;
+  bottom: 4rem;
+}
+.inner-ipad span {
+  position: absolute;
+  left: -7rem;
+  top: 50%;
+  text-align: start;
+  font-size: 2.8rem;
+}
+.inner-ipad span span {
+  margin-top: 2rem;
+  margin-left: 4.2rem;
 }
 
 .main-slider__wrap {

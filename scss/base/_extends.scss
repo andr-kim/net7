@@ -18,6 +18,10 @@
 	@extend %flex-center;
 }
 
+
+// --- FONTS --- //
+
+// 01. Font Weight
 %font-bold {
 	font-weight: 700;
 }
@@ -28,4 +32,13 @@
 
 %font-light {
 	font-weight: 300;
+}
+
+// 01. Font Size
+%fontSize-M {
+	font-size: $fontSize-M;
+}
+
+%fontSize-XS {
+	font-size: $fontSize-XS;
 }

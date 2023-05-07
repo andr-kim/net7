@@ -101,15 +101,11 @@ header {
   border-radius: 1.5rem;
 }
 
-.benefits-text, .box__bottom span, h1 span, h3, h2 {
+.box__bottom span, h1 span, h3, h2 {
   font-weight: 700;
 }
 
-.inner-ipad span, .inner-iphone span, .short-descript {
-  font-weight: 600;
-}
-
-.inner-ipad span span, .inner-iphone span span, .short-descript span, .logo span {
+.logo span {
   font-weight: 300;
 }
 
@@ -388,59 +384,4 @@ h1 span {
 .box-grid {
   display: grid;
   grid-template-columns: 1fr max-content;
-}
-
-.inner-display {
-  max-width: 61rem;
-  position: relative;
-}
-
-.short-descript {
-  position: absolute;
-  bottom: 3.5rem;
-  font-size: 2.8rem;
-}
-.short-descript span {
-  font-size: 1.8rem;
-}
-
-.inner-iphone {
-  max-width: 12rem;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-.inner-iphone span {
-  text-align: center;
-  font-size: 2.8rem;
-}
-.inner-iphone span span {
-  font-size: 1.8rem;
-}
-
-.benefits-text {
-  position: absolute;
-  left: 3rem;
-  bottom: 3rem;
-  font-size: 2.4rem;
-  max-width: 25ch;
-  line-height: 180%;
-}
-
-.inner-ipad {
-  max-width: 24rem;
-  position: absolute;
-  right: 3rem;
-  bottom: 3rem;
-}
-.inner-ipad span {
-  position: absolute;
-  left: -5rem;
-  top: 50%;
-  text-align: start;
-  font-size: 2.8rem;
-}
-.inner-ipad span span {
-  font-size: 1.8rem;
 }/*# sourceMappingURL=privacy.css.map */

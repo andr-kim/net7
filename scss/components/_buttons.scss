@@ -2,7 +2,7 @@
 	color: $clr-primary;
 	border: .2rem solid $clr-primary;
 	padding: 1rem 2.2rem 1.2rem;
-	font-size: 2.4rem;
+	@extend %fontSize-M;
 	@extend %font-light;
 	width: fit-content;
 	transition: color ease-in-out 300ms, background-color ease-in-out 300ms;
