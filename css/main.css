@@ -101,6 +101,18 @@ header {
   border-radius: 1.5rem;
 }
 
+.benefits__item__top span:nth-child(2), .benefits__item:nth-child(7) .hosting-price, .benefits__item:nth-child(7) h3, .benefits-text, .box__bottom span, h1 span, h3, h2 {
+  font-weight: 700;
+}
+
+.inner-ipad span, .inner-iphone span, .short-descript, .btn-secondary {
+  font-weight: 600;
+}
+
+.benefits__item:nth-child(7) .hosting-info, .inner-ipad span span, .inner-iphone span span, .short-descript span, .logo span, .btn {
+  font-weight: 300;
+}
+
 body {
   font-family: SF;
   font-size: 1.6rem;
@@ -118,12 +130,10 @@ h1 {
 
 h2 {
   font-size: 2.4rem;
-  font-weight: 700;
 }
 
 h3 {
   font-size: 2.4rem;
-  font-weight: 700;
 }
 
 p {
@@ -142,7 +152,6 @@ p {
   border: 0.2rem solid #64DA72;
   padding: 1rem 2.2rem 1.2rem;
   font-size: 2.4rem;
-  font-weight: 300;
   width: -moz-fit-content;
   width: fit-content;
   transition: color ease-in-out 300ms, background-color ease-in-out 300ms;
@@ -158,7 +167,6 @@ p {
   border: none;
   color: black;
   font-size: 2.4rem;
-  font-weight: 600;
 }
 
 .header__box {
@@ -183,7 +191,6 @@ p {
 }
 .logo span {
   padding-top: 0.5rem;
-  font-weight: 300;
 }
 
 .toggle {
@@ -263,7 +270,6 @@ input[type=checkbox]:checked::before {
 
 h1 span {
   font-size: 4.2rem;
-  font-weight: 700;
   margin-left: 0.3rem;
 }
 
@@ -301,7 +307,6 @@ h1 span {
 }
 .box__bottom span {
   font-size: 4.8rem;
-  font-weight: 700;
 }
 
 .boxes {
@@ -416,11 +421,9 @@ h1 span {
   position: absolute;
   bottom: 3.5rem;
   font-size: 2.8rem;
-  font-weight: 600;
 }
 .short-descript span {
   font-size: 1.8rem;
-  font-weight: 300;
 }
 
 .inner-iphone {
@@ -433,11 +436,9 @@ h1 span {
 .inner-iphone span {
   text-align: center;
   font-size: 2.8rem;
-  font-weight: 600;
 }
 .inner-iphone span span {
   font-size: 1.8rem;
-  font-weight: 300;
 }
 
 .benefits-text {
@@ -447,7 +448,6 @@ h1 span {
   font-size: 2.4rem;
   max-width: 25ch;
   line-height: 180%;
-  font-weight: 700;
 }
 
 .inner-ipad {
@@ -462,11 +462,9 @@ h1 span {
   top: 50%;
   text-align: start;
   font-size: 2.8rem;
-  font-weight: 600;
 }
 .inner-ipad span span {
   font-size: 1.8rem;
-  font-weight: 300;
 }
 
 .benefits-wrap {
@@ -489,8 +487,8 @@ h1 span {
 .benefits__item:nth-child(7) {
   grid-column: 2/5;
   background-image: url(/assets/img/hosting-banner.jpg);
-  background-size: cover;
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -500,14 +498,12 @@ h1 span {
 }
 .benefits__item:nth-child(7) h3 {
   font-size: 4rem;
-  font-weight: 700;
 }
 .benefits__item:nth-child(7) p {
   font-size: 3.2rem;
 }
 .benefits__item:nth-child(7) .hosting-price {
   font-size: 4.2rem;
-  font-weight: 700;
   color: #64DA72;
 }
 .benefits__item:nth-child(7) .hosting-info {
@@ -515,7 +511,6 @@ h1 span {
   left: 4rem;
   bottom: 4rem;
   font-size: 1.4rem;
-  font-weight: 300;
 }
 .benefits__item:nth-child(7) .hosting-info span {
   display: inline;
@@ -533,7 +528,6 @@ h1 span {
 .benefits__item__top span:nth-child(2) {
   color: #3B3B3B;
   font-size: 4.2rem;
-  font-weight: 700;
   line-height: 80%;
 }
 

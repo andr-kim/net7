@@ -19,8 +19,8 @@
 	&:nth-child(7) {
 		grid-column: 2 / 5;
 		background-image: url(/assets/img/hosting-banner.jpg);
-		background-size: cover;
 		background-position: center;
+		background-size: cover;
 		background-repeat: no-repeat;
 		display: flex;
 		flex-direction: column;
@@ -30,7 +30,7 @@
 
 		h3 {
 			font-size: $fontSize-titleBanner;
-			font-weight: 700;
+			@extend %font-bold;
 		}
 
 		p {
@@ -39,7 +39,7 @@
 
 		.hosting-price {
 			font-size: $fontSize-XXXL;
-			font-weight: 700;
+			@extend %font-bold;
 			color: $clr-primary;
 		}
 
@@ -48,7 +48,7 @@
 			left: 4rem;
 			bottom: 4rem;
 			font-size: $fontSize-XXXS;
-			font-weight: 300;
+			@extend %font-light;
 
 			span {
 				display: inline;
@@ -70,7 +70,7 @@
 	span:nth-child(2) {
 		color: $clr-baseDark;
 		font-size: $fontSize-XXXL;
-		font-weight: 700;
+		@extend %font-bold;
 		line-height: 80%;
 	}
 }

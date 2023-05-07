@@ -17,3 +17,15 @@
 	border-radius: $br-s;
 	@extend %flex-center;
 }
+
+%font-bold {
+	font-weight: 700;
+}
+
+%font-semiBold {
+	font-weight: 600;
+}
+
+%font-light {
+	font-weight: 300;
+}

@@ -3,7 +3,7 @@
 	border: .2rem solid $clr-primary;
 	padding: 1rem 2.2rem 1.2rem;
 	font-size: 2.4rem;
-	font-weight: 300;
+	@extend %font-light;
 	width: fit-content;
 	transition: color ease-in-out 300ms, background-color ease-in-out 300ms;
 	border-radius: $br-xl;
@@ -19,5 +19,5 @@
 	border: none;
 	color: $clr-dark;
 	font-size: $fontSize-M;
-	font-weight: 600;
+	@extend %font-semiBold;
 }

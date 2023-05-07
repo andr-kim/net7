@@ -15,12 +15,12 @@ h1 {
 
 h2 {
 	font-size: $fontSize-M;
-	font-weight: 700;
+	@extend %font-bold;
 }
 
 h3 {
 	font-size: $fontSize-M;
-	font-weight: 700;
+	@extend %font-bold;
 }
 
 p {
