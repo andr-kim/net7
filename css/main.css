@@ -548,19 +548,17 @@ h1 span {
   margin-left: 4.2rem;
 }
 
-.main-slider__wrap {
+.cases__items {
+  padding-top: 2rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-}
-.main-slider__wrap div {
-  background-color: black;
-  width: 100%;
-  aspect-ratio: 1/1;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
 }
 
-@media (max-width: 767px) {
-  .main-slider__wrap {
-    grid-template-columns: 1fr;
-  }
+.cases__item {
+  padding: 4rem;
+  background-color: #262626;
+  border-radius: 5rem;
+  overflow: hidden;
+  min-height: 30rem;
 }/*# sourceMappingURL=main.css.map */

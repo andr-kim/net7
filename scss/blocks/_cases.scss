@@ -1,0 +1,14 @@
+.cases__items {
+	padding-top: 2rem;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 2rem;
+}
+
+.cases__item {
+	padding: 4rem;
+	background-color: $clr-box;
+	border-radius: $br-l;
+	overflow: hidden;
+	min-height: 30rem;
+}
