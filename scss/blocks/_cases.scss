@@ -11,4 +11,19 @@
 	border-radius: $br-l;
 	overflow: hidden;
 	min-height: 30rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.cases__badge {
+	border: solid .1rem white;
+	padding: .5rem 1.2rem;
+	border-radius: 2rem;
+	width: fit-content;
+}
+
+.cases__link::before {
+	content: ' \2192';
+	margin-right: .5rem;
 }
